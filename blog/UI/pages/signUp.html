@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <head>
+        <title>SIgn Up</title>
+        
+        <link href="../css/custom.css" rel="stylesheet" type="text/css"/>
+        <link href="../css/style.css" rel="stylesheet">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"  crossorigin="anonymous">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css"  crossorigin="anonymous">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+        <script type="text/javascript" src="../models/SignUp.js"></script>
+        <script type="text/javascript" src="../views/signUp.js"></script>
+    </head>
+    
+    <body>
+        <div id="message">
+            <div class="window">
+                <div id="message_text">Default Message</div>
+                <button class="btn btn-primary" id="message_btn">Ok</button>
+            </div>
+        </div>
+        
+        <!-- Navigation -->
+<nav class="navbar navbar-inverse navbar-fixed-top" role="navigation" id="navbar">
+        <div class="container">
+        <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+        <a class="navbar-brand" href="index.html" id="navbar-brand">Home</a>
+            </div>
+                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav">
+                    <li class="adminMenuItem">
+                        <a href="article.html">Article</a>
+                    </li>
+                    <li class="adminMenuItem">
+                        <a href="newArticle.html">New Article</a>
+                    </li>                    
+                    <li class="active">
+                        <a href="signUp.html">Sign Up</a>
+                    </li>
+                     <li>
+                        <a href="login.html">Login</a>
+                    </li>
+                    <li>
+                        <a href="contact.html">Contact</a>
+                    </li>
+                    <li class="adminMenuItem">
+                        <a href="#">Logout</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+		  <div class="center">
+		   	<div class="login">
+			  <h2>User Sign Up</h2> 
+					
+				 <section>  
+				 <div class="input-group">
+                    <span class="input-group-addon"><i class="glyphicon glyphicon-envelope"></i></span>
+                    <input type="text"class="form-control" placeholder="Email" id="user_email"/>
+                </div>
+                      <div class="clear"></div>
+                    
+                      	 <div class="input-group">
+                    <span class="input-group-addon"><i class="glyphicon glyphicon-asterisk"></i></span>
+                    <input type="text" class="form-control" placeholder="Password" id="user_password"/>
+                     
+                </div>
+                <div class="clear"></div>
+                <div class="input-group">
+                    <span class="input-group-addon"><i class="glyphicon glyphicon-user"></i></span>
+                    <input type="text" class="form-control" placeholder="First Name" id="firstName"/>
+                     
+                </div>
+                <div class="clear"></div>
+                 <div class="input-group">
+                    <span class="input-group-addon"><i class="glyphicon glyphicon-user"></i></span>
+                    <input type="text" class="form-control" placeholder="Last Name" id="lastName"/>
+                     
+                </div>
+    
+                  <div class="clear"></div>
+                  <div class="clear"></div>
+                  <div class="clear"></div>
+                    <button class="btn btn-primary" id="signup_btn">Sign Up</button>
+                </section>
+				
+		    </div> 
+		    
+		    
+		  </div>
+		  
+		  
+    </body>
+</html>

@@ -1,0 +1,223 @@
+body 
+{
+    padding-top: 70px;
+    background: url("https://d2v9y0dukr6mq2.cloudfront.net/video/thumbnail/a9aUa71/background-loop-of-relaxing-blue-waves-in-shallow-water_4jkw5k4d__F0004.png");
+    background-repeat:no-repeat;
+    background-attachment: fixed;
+}
+
+footer 
+{
+    margin: 50px 0;
+}
+
+a:hover
+{
+    color: #9C2E30;
+}
+
+/* NAVBAR - MENU */
+
+#navbar
+{
+    background-color: #9C2E30;    
+}
+
+#navbar a
+{
+    color: white;
+    font-weight: bold;
+}
+
+#navbar a:hover
+{
+    color:#9C2E30;
+    font-weight: bold;
+}
+
+#navbar-menumenuhover
+{
+     background-color: black;
+}
+
+#navbar ul li:hover
+{
+    background-color: black;
+}
+
+/* TITLE H1 */
+#container #row  #col-lg-8 #h1-title 
+{
+    text-align: center;
+    color: #156182;  
+}
+
+/* THUMBNAIL POSTS */
+#container #row #thumb 
+{
+    border-color: #156182;
+}
+
+#container #row  #col-lg-8 #h1-titlePost 
+{
+    text-align: center;
+    color: #156182; 
+    font-size: 24px;
+}
+
+#container #row  #col-lg-8 #h1-titlePost:hover
+{
+    color: #9C2E30;
+}
+
+#container #row  #col-lg-8 p 
+{
+    font-size: 16px;
+}
+
+/* Buttons */
+
+.btn-primary 
+{
+    border: none;
+    color: white; 
+    transition:all 0.3s ease;
+}
+
+
+.btn-primary:hover
+{
+    color: gray; 
+}
+
+/*
+.btn-default
+{
+    background-color: #156182;     
+    border: none;
+    color: white; 
+    font-weight: bold;
+}
+
+.btn-default:hover
+{
+     background-color: #9C2E30;
+     color: white; 
+     font-weight: bold;
+     transition:all 0.3s ease;
+}
+
+*/
+
+.well .input-group input
+{
+  box-shadow: none;  
+  border-color: #156182;
+}
+
+.well .input-group input:focus
+{
+    border-color: #9C2E30;
+}
+
+.well .input-group #btn
+{
+    height: 34px;    
+}
+
+.well .input-group #btn:focus
+{
+    background-color: #156182;
+}
+
+/* Comments*/
+
+.well .form-group textArea
+{
+    box-shadow: none;  
+    border-color: #156182;
+}
+
+.well .form-group textArea:focus
+{
+    border-color: #9C2E30;
+}
+
+.row .col-lg-12 a
+{
+    text-align: center;
+    font-weight: bold;
+}
+
+#first_id img
+{
+    background-color: #156182;
+    border-radius: 40px;   
+}
+
+#first_id img:hover
+{
+    background-color: #9C2E30;
+    border-radius: 40px;
+    transition:all 0.3s ease;
+}
+
+.articlecls .thumbnail
+{
+    padding:10px;
+}
+
+.articlecls .thumbnail img
+{
+    width:100%;
+}
+
+@media (max-width: 760px) 
+{
+    
+}
+.footer
+{
+    width: 50%;
+    margin: 0 auto;
+    clear: both;
+    text-align: center;
+    /* display: block; */
+}
+
+.articlecontainer
+{
+    float:left;
+    width:70%;
+    margin:0;
+    padding:0;
+}
+
+.sidebarcontainer
+{
+    float:right;
+    width:30%;
+}
+
+.sectionArticle
+{
+    background-color: rgba(115, 95, 85, .3);
+}
+.imageFile
+{
+    float:right;
+}
+
+#comment_btn
+{
+    position:relative;
+    left: 47%;
+}
+
+
+
+
+
+
+
+

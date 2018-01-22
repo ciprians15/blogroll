@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link href="../css/custom.css" rel="stylesheet" type="text/css" />
+        <link href="../css/style.css" rel="stylesheet">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"  crossorigin="anonymous">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css"  crossorigin="anonymous">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"  crossorigin="anonymous"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"  crossorigin="anonymous"></script>
+        <script type="text/Javascript" src="../models/Login.js"></script>
+        <script type="text/javascript" src="../models/Article.js"></script>
+        <script type="text/javascript" src="../views/newArticle.js"></script>
+    </head>
+    <body>
+        
+        <div id="message">
+            <div class="window">
+                <div id="message_text">Default Message</div>
+                <button class="btn btn-primary" id="message_btn">Ok</button>
+            </div>
+        </div>
+        
+        
+        <!-- Loader -->
+        <div class="loader" id="loader">
+            <img src="../css/img/icons/loading_apple.gif"  />
+        </div>
+        
+         <!-- Navigation  toolbar-->
+    <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation" id="navbar">
+        <div class="container">
+           <div class="navbar-header">
+           <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+           </button>           
+            <a class="navbar-brand" href="index.html" id="navbar-menu">Home</a>
+           </div>
+           <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav">
+                  
+                    <li class="active">
+                        <a href="newArticle.html">New Article</a>
+                    </li>                    
+                    <li>
+                        <a href="signUp.html">Sign Up</a>
+                    </li>
+                     <li>
+                        <a href="login.html">Login</a>
+                    </li>
+                    <li>
+                        <a href="contact.html">Contact</a>
+                    </li>
+                    <li id="logOut">
+                        <a href="#">Logout</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    
+    <div class="welcome_bar" id="mainLoginField">
+        <span>
+            Welcome, 
+        </span>
+    <b><span id="welcomeName"></span></b>
+    <!--<input class="logout" type="button" id="logOut" value="Logout"/> -->
+    </div>
+
+        <div class="container">
+            <h3>Section for adding new articles </h3>
+            <div class="header clearfix"></div>
+           <section class="sectionArticle">
+              <!--make file upload without form-->
+               <input type="text" id="title" placeholder="title" /><br>
+               <textarea class="textarea" id="content" rows="4" cols="10" placeholder="content" name="message"></textarea>
+               
+               <div class="imageFile">
+               <input type="file" id="article_file" name="main_image_url" />
+               <label for="preview">Image Preview: </label>
+	           <img src="https://cdn.vox-cdn.com/thumbor/iR0Yl6p5nKT2EXM7uHCqbxYHPc8=/0x0:1280x720/1600x900/cdn.vox-cdn.com/uploads/chorus_image/image/40614224/untitled-1.0.jpg" width="100" height="" id="preview">
+               </div>
+               <div class="clear"></div>
+            <button class="btn btn-primary" id="comment_btn" onclick="save_article();">Save</button>
+           </section>
+        </div>
+        
+        
+        
+        
+
+
+
+
+
+
+        <!-- Footer -->
+        <footer>
+            <div class="footer" id="first_id">
+                <div class="col-lg-12">
+                    <a href="https://www.facebook.com"><p>Copyright &copy; Ciprian Simionov 2017</p></a>
+                </div>
+          <!-- Facebook --> <a href="https://www.facebook.com" title="facebook"><img src="../css/img/icons/facebook-icon.png"></a>
+          <!-- Youtube --> <a href="https://www.youtube.com" title="youtube"><img src="../css/img/icons/youtube-icon.png"></a>
+          <!-- Google  --> <a href="https://google.com" title="google +"><img src="../css/img/icons/google+icon.png"></a>
+            </div>
+
+        </footer>
+        
+        <script src="https://www.cse.ust.hk/~rossiter/dating_web_site.js"></script>
+        
+    </body>
+</html>

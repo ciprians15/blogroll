@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Contact</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link href="../css/custom.css" rel="stylesheet" type="text/css" />
+    <link href="../css/style.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" crossorigin="anonymous">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" crossorigin="anonymous"></script>
+    <script type = "text/Javascript" src = "../models/Login.js"></script>
+    <script type="text/Javascript" src="../models/Contact.js"></script>
+    <script type="text/Javascript" src="../views/contact.js"></script>
+  
+
+</head>
+
+<body>
+
+        <div id="message">
+            <div class="window">
+                <div id="message_text">Default Message</div>
+                <button class="btn btn-primary" id="message_btn">Ok</button>
+            </div>
+        </div>
+        
+        <!-- Loader -->
+        <div class="loader" id="loader">
+            <img src="../css/img/icons/loading_apple.gif"  />
+        </div>
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation" id="navbar">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="index.html" id="navbar-brand">Home</a>
+            </div>
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav">
+                   
+                    <li class="adminMenuItem">
+                        <a href="newArticle.html">New Article</a>
+                    </li>
+                    <li>
+                        <a href="signUp.html">Sign Up</a>
+                    </li>
+                    <li>
+                        <a href="login.html">Login</a>
+                    </li>
+                    <li class="active">
+                        <a href="contact.html">Contact</a>
+                    </li>
+                    <li id="logOut">
+                        <a href="#">Logout</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    
+    <div class="welcome_bar" id="mainLoginField">
+    <span>
+        Welcome, 
+    </span>
+    <b><span id="welcomeName"></span></b>
+     
+</div>
+
+    <!-- Page Content -->
+    <div class="container">
+        <div class="row">
+            <!-- Blog Post Content Column -->
+            <div class="col-lg-8">
+                <!-- Blog Post -->
+                <!-- Title -->
+                <h1>Contact</h1>
+            </div>
+
+            <div class="container">
+
+                <h4> Contact</h4>
+                <hr>
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="col-sm-6">
+                            <div class="thumbnail"><br><br>
+                                <p></p>
+                                <a href=""> <img src="../css/img/web-development_0.jpg" alt="..."></a>
+                                <div class="caption">
+                                    <p>Web development</p>
+
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-6"><br>
+
+
+
+                            <!-- Name input-->
+                            <div class="form-group">
+                                <label class="col-md-3 control-label" for="name">Name</label>
+                                <div class="col-md-9">
+                                    <input id="contactName" name="name" type="text" placeholder="" class="form-control">
+                                </div>
+                            </div>
+
+                            <!-- Email input-->
+                            <div class="form-group">
+                                <label class="col-md-3 control-label" for="email">Email</label>
+                                <div class="col-md-9">
+                                    <input id="contactEmail" name="email" type="text" placeholder="" class="form-control">
+                                </div>
+                            </div>
+
+                            <!-- Subject input-->
+                            <div class="form-group">
+                                <label class="col-md-3 control-label" for="name">Subject</label>
+                                <div class="col-md-9">
+                                    <input id="contactSubject" name="name" type="text" placeholder="" class="form-control">
+                                </div>
+                            </div>
+
+
+                            <!-- Message body input -->
+                            <div class="form-group">
+                                <label class="col-md-3 control-label" for="message">Message</label>
+                                <div class="col-md-9">
+                                    <textarea class="form-control" id="contactMessage" name="message" placeholder="" rows="5"></textarea>
+                                </div>
+                            </div>
+
+                            <!-- Form actions -->
+                            <div class="form-group">
+                                <div class="col-md-12 text-right">
+                                    <button type="submit" id="contactSubmit" class="btn btn-primary">Submit</button>
+                                </div>
+                            </div>
+
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Footer -->
+            <footer>
+                <div class="footer" id="first_id">
+                    <div class="col-lg-12">
+                        <a href="https://www.facebook.com">
+                            <p>Copyright &copy; Ciprian Simionov 2017</p>
+                        </a>
+                    </div>
+                    <!-- Facebook -->
+                    <a href="https://www.facebook.com" title="facebook"><img src="../css/img/icons/facebook-icon.png"></a>
+                    <!-- Youtube -->
+                    <a href="https://www.youtube.com" title="youtube"><img src="../css/img/icons/youtube-icon.png"></a>
+                    <!-- Google  -->
+                    <a href="https://google.com" title="google +"><img src="../css/img/icons/google+icon.png"></a>
+                </div>
+
+            </footer>
+        </div>
+</body>
+
+
+
+</html>

@@ -1,0 +1,30 @@
+[28-Nov-2017 11:48:43 UTC] PHP Notice:  Undefined offset: 0 in /home/ubuntu/workspace/blog/blog/API/models/ArticlesModel.php on line 59
+[28-Nov-2017 11:48:43 UTC] PHP Stack trace:
+[28-Nov-2017 11:48:43 UTC] PHP   1. {main}() /home/ubuntu/workspace/blog/blog/API/index.php:0
+[28-Nov-2017 11:48:43 UTC] PHP   2. Articles->getAll() /home/ubuntu/workspace/blog/blog/API/index.php:62
+[28-Nov-2017 11:48:43 UTC] PHP   3. ArticlesModel->getItemById() /home/ubuntu/workspace/blog/blog/API/controllers/Articles.php:20
+[28-Nov-2017 11:48:54 UTC] PHP Notice:  Undefined offset: 0 in /home/ubuntu/workspace/blog/blog/API/models/ArticlesModel.php on line 59
+[28-Nov-2017 11:48:54 UTC] PHP Stack trace:
+[28-Nov-2017 11:48:54 UTC] PHP   1. {main}() /home/ubuntu/workspace/blog/blog/API/index.php:0
+[28-Nov-2017 11:48:54 UTC] PHP   2. Articles->getAll() /home/ubuntu/workspace/blog/blog/API/index.php:62
+[28-Nov-2017 11:48:54 UTC] PHP   3. ArticlesModel->getItemById() /home/ubuntu/workspace/blog/blog/API/controllers/Articles.php:20
+[20-Jan-2018 11:43:26 UTC] PHP Notice:  Undefined offset: 0 in /home/ubuntu/workspace/blog/API/models/ArticlesModel.php on line 59
+[20-Jan-2018 11:43:26 UTC] PHP Stack trace:
+[20-Jan-2018 11:43:26 UTC] PHP   1. {main}() /home/ubuntu/workspace/blog/API/index.php:0
+[20-Jan-2018 11:43:26 UTC] PHP   2. Articles->getAll() /home/ubuntu/workspace/blog/API/index.php:62
+[20-Jan-2018 11:43:26 UTC] PHP   3. ArticlesModel->getItemById() /home/ubuntu/workspace/blog/API/controllers/Articles.php:20
+[20-Jan-2018 11:43:42 UTC] PHP Notice:  Undefined offset: 0 in /home/ubuntu/workspace/blog/API/models/ArticlesModel.php on line 59
+[20-Jan-2018 11:43:42 UTC] PHP Stack trace:
+[20-Jan-2018 11:43:42 UTC] PHP   1. {main}() /home/ubuntu/workspace/blog/API/index.php:0
+[20-Jan-2018 11:43:42 UTC] PHP   2. Articles->getAll() /home/ubuntu/workspace/blog/API/index.php:62
+[20-Jan-2018 11:43:42 UTC] PHP   3. ArticlesModel->getItemById() /home/ubuntu/workspace/blog/API/controllers/Articles.php:20
+[20-Jan-2018 11:43:43 UTC] PHP Notice:  Undefined offset: 0 in /home/ubuntu/workspace/blog/API/models/ArticlesModel.php on line 59
+[20-Jan-2018 11:43:43 UTC] PHP Stack trace:
+[20-Jan-2018 11:43:43 UTC] PHP   1. {main}() /home/ubuntu/workspace/blog/API/index.php:0
+[20-Jan-2018 11:43:43 UTC] PHP   2. Articles->getAll() /home/ubuntu/workspace/blog/API/index.php:62
+[20-Jan-2018 11:43:43 UTC] PHP   3. ArticlesModel->getItemById() /home/ubuntu/workspace/blog/API/controllers/Articles.php:20
+[22-Jan-2018 13:27:11 UTC] PHP Notice:  Undefined offset: 0 in /home/ubuntu/workspace/blog/API/models/ArticlesModel.php on line 59
+[22-Jan-2018 13:27:11 UTC] PHP Stack trace:
+[22-Jan-2018 13:27:11 UTC] PHP   1. {main}() /home/ubuntu/workspace/blog/API/index.php:0
+[22-Jan-2018 13:27:11 UTC] PHP   2. Articles->getAll() /home/ubuntu/workspace/blog/API/index.php:62
+[22-Jan-2018 13:27:11 UTC] PHP   3. ArticlesModel->getItemById() /home/ubuntu/workspace/blog/API/controllers/Articles.php:20
